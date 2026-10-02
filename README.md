@@ -23,7 +23,7 @@
 
 1. کلون کردن مخزن:
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/mh-browser.git](https://github.com/YOUR-USERNAME/mh-browser.git)
+   git clone [https://github.com/Mohmmad-hosein/mh-browser.git](https://github.com/Mohmmad-hosein/mh-browser.git)
 
 2. دانلود نسخه اخر در بخش ریلیز  
 
