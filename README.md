@@ -1,34 +1,26 @@
-# mh-browser
+# MH Browser 🌐
 
-An Electron application with React and TypeScript
+یک مرورگر وب سریع، مدرن و امن که با استفاده از تکنولوژی‌های قدرتمند **Electron**، **React** و **TypeScript** توسعه داده شده است. این مرورگر با تمرکز بر سادگی، دارای یک رابط کاربری تاریک (Dark Theme) با افکت‌های نئونی ملایم است و تجربه کاربری روانی را ارائه می‌دهد.
 
-## Recommended IDE Setup
+## ✨ ویژگی‌های کلیدی
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* **رابط کاربری چشم‌نواز:** طراحی شیک با رنگ‌بندی مشکی و آبی پررنگ، همراه با انیمیشن‌های نرم و افکت‌های نوری (Soft Glow).
+* **مدیریت هوشمند تب‌ها:** سیستم تب‌بندی مستقل با قابلیت ایزوله‌سازی صفحات وب و جلوگیری از تداخل لایه‌ها.
+* **سپر امنیتی پاپ‌آپ (Pop-up Blocker):** مسدودسازی خودکار درخواست‌های پنهان سایت‌ها برای باز کردن تب‌های تبلیغاتی و اضافی.
+* **صفحه اصلی (Home) اختصاصی:** دسترسی آنی به موتور جستجو و لینک‌های سریع بدون درگیری موتور کرومیوم.
+* **مدیریت بهینه حافظه:** پاکسازی کامل اطلاعات صفحات وب از رم (RAM) بلافاصله پس از بسته شدن تب‌ها.
 
-## Project Setup
+## 🛠 تکنولوژی‌های به‌کار رفته
 
-### Install
+* **[Electron](https://www.electronjs.org/)** - هسته اصلی مرورگر و مدیریت پردازش‌ها
+* **[React](https://reactjs.org/)** - رندر رابط کاربری (نوار ابزار، آدرس‌بار، تب‌ها)
+* **[TypeScript](https://www.typescriptlang.org/)** - تضمین پایداری و کاهش باگ‌های زمان اجرا
+* **[Vite](https://vitejs.dev/)** - ابزار بیلد بسیار سریع (پیکربندی شده با `electron-vite`)
 
-```bash
-$ npm install
-```
+## 🚀 راه‌اندازی برای توسعه‌دهندگان
 
-### Development
+برای اجرای این پروژه روی سیستم خود، مراحل زیر را دنبال کنید:
 
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+1. کلون کردن مخزن:
+   ```bash
+   git clone [https://github.com/YOUR-USERNAME/mh-browser.git](https://github.com/YOUR-USERNAME/mh-browser.git)
